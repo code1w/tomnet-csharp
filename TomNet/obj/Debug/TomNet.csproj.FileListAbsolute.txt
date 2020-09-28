@@ -1,7 +1,0 @@
-E:\zxb\code\github\tomnet-csharp\bin\Debug\TomNet.dll
-E:\zxb\code\github\tomnet-csharp\bin\Debug\TomNet.pdb
-E:\zxb\code\github\tomnet-csharp\TomNet\obj\Debug\TomNet.csprojAssemblyReference.cache
-E:\zxb\code\github\tomnet-csharp\TomNet\obj\Debug\TomNet.csproj.CoreCompileInputs.cache
-E:\zxb\code\github\tomnet-csharp\TomNet\obj\Debug\TomNet.csproj.CopyComplete
-E:\zxb\code\github\tomnet-csharp\TomNet\obj\Debug\TomNet.dll
-E:\zxb\code\github\tomnet-csharp\TomNet\obj\Debug\TomNet.pdb
