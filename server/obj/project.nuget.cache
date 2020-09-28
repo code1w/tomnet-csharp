@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ocqNiW6dYpD1AETVhH3Lifhh7xDuiIAtGT4o1HIzKlQffvzaaqXG3oeFCt1cY5DtOJCKfaLWfTKN35+lX6X1sQ==",
+  "success": true,
+  "projectFilePath": "E:\\zxb\\code\\github\\tomnet-csharp\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zxb\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

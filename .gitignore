@@ -1,0 +1,7 @@
+.vs
+.git
+.vscode
+build
+bin
+[/bin]
+[/obj]

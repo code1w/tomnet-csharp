@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D96D670E-5EB0-465D-8101-1B32EE4CFB58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TomNet</RootNamespace>
+    <AssemblyName>TomNet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TomNet.Common\ByteBuffer.cs" />
+    <Compile Include="TomNet.Common\DisconnectionReason.cs" />
+    <Compile Include="TomNet.Controllers\DefaultController.cs" />
+    <Compile Include="TomNet.Controllers\IController.cs" />
+    <Compile Include="TomNet.Controllers\ProtobufController.cs" />
+    <Compile Include="TomNet.Controllers\RequestDelegate.cs" />
+    <Compile Include="TomNet.Core\BaseEvent.cs" />
+    <Compile Include="TomNet.Core\EventDispatcher.cs" />
+    <Compile Include="TomNet.Core\EventListenerDelegate.cs" />
+    <Compile Include="TomNet.Core\IDispatchable.cs" />
+    <Compile Include="TomNet.Exceptions\TomNetError.cs" />
+    <Compile Include="TomNet.Protocol\ProtobufMsgCodec.cs" />
+    <Compile Include="TomNet.Protocol\ProtobufProtocol.cs" />
+    <Compile Include="TomNet.Protocol\IMsgHeader.cs" />
+    <Compile Include="TomNet.Protocol\DefaultMsgHeader.cs" />
+    <Compile Include="TomNet.NetWork\NetWorkIOHandler.cs" />
+    <Compile Include="TomNet.Core\ThreadManager.cs" />
+    <Compile Include="TomNet.Core\WriteBinaryDataDelegate.cs" />
+    <Compile Include="TomNet.Fsm\FiniteStateMachine.cs" />
+    <Compile Include="TomNet.Fsm\FiniteState.cs" />
+    <Compile Include="TomNet.Protocol\IProtocol.cs" />
+    <Compile Include="TomNet.Protocol\IMsgCodec.cs" />
+    <Compile Include="TomNet.Protocol\ProtocolDefine.cs" />
+    <Compile Include="TomNet.Security\CryptoKey.cs" />
+    <Compile Include="TomNet.Security\DefaultMsgEncrypter.cs" />
+    <Compile Include="TomNet.Security\IMsgEncrypter.cs" />
+    <Compile Include="TomNet.Sockets\BaseSocket.cs" />
+    <Compile Include="TomNet.Sockets\ConnectionDelegate.cs" />
+    <Compile Include="TomNet.Sockets\DisconnectionDelegate.cs" />
+    <Compile Include="TomNet.Sockets\ISocket.cs" />
+    <Compile Include="TomNet.Sockets\OnDataDelegate.cs" />
+    <Compile Include="TomNet.Sockets\OnErrorDelegate.cs" />
+    <Compile Include="TomNet.Sockets\OnStringDataDelegate.cs" />
+    <Compile Include="TomNet.Sockets\TcpSocket.cs" />
+    <Compile Include="TomNet.NetWork\ConnectionModes.cs" />
+    <Compile Include="TomNet.NetWork\INetWorkClient.cs" />
+    <Compile Include="TomNet.NetWork\IIOHandler.cs" />
+    <Compile Include="TomNet.NetWork\TcpNetWorkClinet.cs" />
+    <Compile Include="TomNet.NetWork\NetWorkEvent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TomNet\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="TomNet.3rdPart\Google.Protobuf\Google.Protobuf.csproj">
+      <Project>{a7d9c4a4-5c07-467e-b6ba-73f65789bf59}</Project>
+      <Name>Google.Protobuf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

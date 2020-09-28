@@ -1,0 +1,14 @@
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.exe
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.deps.json
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.runtimeconfig.json
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.runtimeconfig.dev.json
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.dll
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\bin\Release\netcoreapp3.1\client.pdb
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.csprojAssemblyReference.cache
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.AssemblyInfoInputs.cache
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.AssemblyInfo.cs
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.csproj.CoreCompileInputs.cache
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.csproj.CopyComplete
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.dll
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.pdb
+E:\zxb\work\code\gamesh-net-csharp\GameshNet\client\obj\Release\netcoreapp3.1\client.genruntimeconfig.cache

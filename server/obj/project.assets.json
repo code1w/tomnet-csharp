@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "System.Memory/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Google.Protobuf/3.12.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Memory": "4.5.2"
+        },
+        "compile": {
+          "bin/placeholder/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Google.Protobuf.dll": {}
+        }
+      },
+      "TomNet/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Google.Protobuf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TomNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TomNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Memory/4.5.2": {
+      "sha512": "fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
+      "type": "package",
+      "path": "system.memory/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.2.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Google.Protobuf/3.12.0": {
+      "type": "project",
+      "path": "../TomNet/TomNet.3rdPart/Google.Protobuf/Google.Protobuf.csproj",
+      "msbuildProject": "../TomNet/TomNet.3rdPart/Google.Protobuf/Google.Protobuf.csproj"
+    },
+    "TomNet/1.0.0": {
+      "type": "project",
+      "path": "../TomNet/TomNet.csproj",
+      "msbuildProject": "../TomNet/TomNet.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Google.Protobuf >= 3.12.0",
+      "TomNet >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zxb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\zxb\\code\\github\\tomnet-csharp\\server\\server.csproj",
+      "projectName": "server",
+      "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\server\\server.csproj",
+      "packagesPath": "C:\\Users\\zxb\\.nuget\\packages\\",
+      "outputPath": "E:\\zxb\\code\\github\\tomnet-csharp\\server\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zxb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.3rdPart\\Google.Protobuf\\Google.Protobuf.csproj": {
+              "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.3rdPart\\Google.Protobuf\\Google.Protobuf.csproj"
+            },
+            "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.csproj": {
+              "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
