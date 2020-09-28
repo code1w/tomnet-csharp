@@ -73,7 +73,7 @@ namespace TomNet
             if(!inited)
             {
                 dispatcher = new EventDispatcher(this);
-                network = new TcpNetWorkClinet(new DefaultNetProtocol());
+                network = new TcpNetWorkClinet(new ProtobufProtocol());
                 if(network!=null)
                 {
                     network.Initialize();

@@ -3,5 +3,6 @@
 .vscode
 build
 bin
-[/bin]
-[/obj]
+TomNet/obj
+3rdPart/Google.Protobuf/obj
+3rdPart/Google.Protobuf/bin

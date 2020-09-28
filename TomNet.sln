@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomNet", "TomNet\TomNet.csproj", "{D96D670E-5EB0-465D-8101-1B32EE4CFB58}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "client", "client\client.csproj", "{0F009F6F-7213-4199-BFC0-F45649D17AA5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "server\server.csproj", "{AB77D126-EC6C-4D64-B9B2-CEA4E6A7244C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TomNet", "TomNet", "{03DD12A5-B1AA-4013-9547-9A768974F583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Protobuf", "3rdPart\Google.Protobuf\Google.Protobuf.csproj", "{A929E215-305A-4A82-85F1-C81C1D2E35E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google.Protobuf", "TomNet\TomNet.3rdPart\Google.Protobuf\Google.Protobuf.csproj", "{A7D9C4A4-5C07-467E-B6BA-73F65789BF59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomNet", "TomNet\TomNet.csproj", "{ECAC188F-FE95-416B-A372-16A304B0A4F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D96D670E-5EB0-465D-8101-1B32EE4CFB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D96D670E-5EB0-465D-8101-1B32EE4CFB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D96D670E-5EB0-465D-8101-1B32EE4CFB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D96D670E-5EB0-465D-8101-1B32EE4CFB58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0F009F6F-7213-4199-BFC0-F45649D17AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F009F6F-7213-4199-BFC0-F45649D17AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F009F6F-7213-4199-BFC0-F45649D17AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,17 +25,17 @@ Global
 		{AB77D126-EC6C-4D64-B9B2-CEA4E6A7244C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB77D126-EC6C-4D64-B9B2-CEA4E6A7244C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB77D126-EC6C-4D64-B9B2-CEA4E6A7244C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7D9C4A4-5C07-467E-B6BA-73F65789BF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7D9C4A4-5C07-467E-B6BA-73F65789BF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7D9C4A4-5C07-467E-B6BA-73F65789BF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7D9C4A4-5C07-467E-B6BA-73F65789BF59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A929E215-305A-4A82-85F1-C81C1D2E35E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A929E215-305A-4A82-85F1-C81C1D2E35E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A929E215-305A-4A82-85F1-C81C1D2E35E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A929E215-305A-4A82-85F1-C81C1D2E35E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAC188F-FE95-416B-A372-16A304B0A4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAC188F-FE95-416B-A372-16A304B0A4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAC188F-FE95-416B-A372-16A304B0A4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAC188F-FE95-416B-A372-16A304B0A4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0F009F6F-7213-4199-BFC0-F45649D17AA5} = {03DD12A5-B1AA-4013-9547-9A768974F583}
-		{AB77D126-EC6C-4D64-B9B2-CEA4E6A7244C} = {03DD12A5-B1AA-4013-9547-9A768974F583}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A8892BB-BF10-4F83-A74D-170DD9C07396}

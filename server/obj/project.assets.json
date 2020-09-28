@@ -26,8 +26,9 @@
       },
       "TomNet/1.0.0": {
         "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Google.Protobuf": "1.0.0"
+          "Google.Protobuf": "3.12.0"
         },
         "compile": {
           "bin/placeholder/TomNet.dll": {}
@@ -62,8 +63,8 @@
     },
     "Google.Protobuf/3.12.0": {
       "type": "project",
-      "path": "../TomNet/TomNet.3rdPart/Google.Protobuf/Google.Protobuf.csproj",
-      "msbuildProject": "../TomNet/TomNet.3rdPart/Google.Protobuf/Google.Protobuf.csproj"
+      "path": "../3rdPart/Google.Protobuf/Google.Protobuf.csproj",
+      "msbuildProject": "../3rdPart/Google.Protobuf/Google.Protobuf.csproj"
     },
     "TomNet/1.0.0": {
       "type": "project",
@@ -103,8 +104,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.3rdPart\\Google.Protobuf\\Google.Protobuf.csproj": {
-              "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.3rdPart\\Google.Protobuf\\Google.Protobuf.csproj"
+            "E:\\zxb\\code\\github\\tomnet-csharp\\3rdPart\\Google.Protobuf\\Google.Protobuf.csproj": {
+              "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\3rdPart\\Google.Protobuf\\Google.Protobuf.csproj"
             },
             "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.csproj": {
               "projectPath": "E:\\zxb\\code\\github\\tomnet-csharp\\TomNet\\TomNet.csproj"

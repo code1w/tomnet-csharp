@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TomNet\TomNet.3rdPart\Google.Protobuf\Google.Protobuf.csproj" />
+    <ProjectReference Include="..\3rdPart\Google.Protobuf\Google.Protobuf.csproj" />
     <ProjectReference Include="..\TomNet\TomNet.csproj" />
   </ItemGroup>
 
